@@ -42,7 +42,7 @@ app.post("/send-email", (req, res) => {
 
   // Send email using nodemailer
   const mailOPtions = {
-    from: process.env.AUTH_EMAIL,
+    from: 'Quick Email Form',
     to: req.body.email,
     subject: req.body.subject,
     text: req.body.text,
