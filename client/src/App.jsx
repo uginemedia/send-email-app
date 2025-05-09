@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import Popup from 'reactjs-popup';
-import 'reactjs-popup/dist/index.css';
 
 function App() {
   const [email, setEmail] = useState('')
